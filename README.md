@@ -15,3 +15,36 @@ Why SuperStore-Visualizing?
 
 Learn Data Visualization: Whether you're a beginner or an experienced data analyst, this project offers valuable hands-on experience in data visualization. Improve your skills in Python and data analysis libraries while creating compelling visuals.
 Business Application: Understand how data analysis and visualization can directly impact business success. The lessons learned here can be applied to real-world scenarios across industries.
+
+
+
+### Summary
+- Imported and read data from an Excel file ('Sample - Superstore (1).xls').
+- Checked the column information using the `info()` method.
+- Identified the top 5 states with the maximum sales and visualized them using a bar plot.
+- Sorted the DataFrame by the 'Order Date'.
+- Created a new column 'Month_Year' to extract and store the month and year from the 'Order Date'.
+- Analyzed and visualized monthly sales using line plots.
+- Explored sales distribution by category and sub-category using bar plots.
+- Visualized the relationship between 'Category' and 'Sub-Category' using a bar chart.
+- Investigated the correlation between numerical variables using a heatmap.
+- Plotted the count of each segment using a countplot.
+- Explored relationships between variables using a pairplot.
+
+### Changes Made
+1. Imported and read data from the provided Excel file using `pd.read_excel`.
+2. Checked the column information using the `info()` method.
+3. Identified and visualized the top 5 states with the highest sales using a bar plot.
+4. Sorted the DataFrame by the 'Order Date' to analyze temporal patterns.
+5. Created a new column 'Month_Year' to extract and store the month and year information.
+6. Analyzed and visualized monthly sales using line plots.
+7. Explored sales distribution by category and sub-category using bar plots.
+8. Visualized the relationship between 'Category' and 'Sub-Category' using a bar chart.
+9. Investigated the correlation between numerical variables using a heatmap.
+10. Plotted the count of each segment using a countplot.
+11. Explored relationships between variables using a pairplot.
+
+### Additional Information
+- Utilized various plotting libraries such as Matplotlib and Seaborn for data visualization.
+- Applied sorting and grouping operations to better understand the data.
+- Created new columns to extract and store additional information for analysis.
